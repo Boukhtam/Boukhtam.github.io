@@ -1,0 +1,54 @@
+[
+	{
+	"title": "JavaScript",
+	"assessment": {
+	"date": "2021-05-25 23:52:58 +0100",
+	"points": 215,
+	"skillIQ": "Expert",
+	"skill": "expert"
+	},
+	"icon" : "javascript"
+},
+{ 
+	"title": "React",
+	"assessment": {
+	"points": 167,
+	"skillIQ": "Proficient",
+	"skill": "proficient"
+	},
+	"icon": "react"
+},
+{ 
+	"title": "React Native",
+	"assessment": {
+	"points": 167,
+	"skillIQ": "Proficient",
+	"skill": "proficient"
+	},
+	"icon": "react"
+},
+{ 
+	"title": "Node.js",
+	"icon": "nodejs-icon"
+},
+{ 
+	"title": "Express",
+	"icon": "express"
+},
+{ 
+	"title": "Redux",
+	"assessment": {
+	"points": 126,
+	"skillIQ": "Proficient",
+	"skill": "proficient"
+	},
+	"icon": "redux"
+},
+{ 
+	"title": "Redux-Saga",
+	"icon": "redux"
+},
+{ 
+	"title": "Three.js"
+}
+]

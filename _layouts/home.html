@@ -1,0 +1,28 @@
+---
+layout: default
+---
+
+<div class="home">
+  {%- if page.title -%}
+    <h1 class="page-heading">{{ page.title }}</h1>
+  {%- endif -%}
+
+  {{ content }}
+
+	<div class="col-3-12">
+    {%- include about.html -%}
+	</div>
+
+	<div class="col-9-12">
+    {%- include brief.html -%}
+	<div class="col-7-12">
+		{%-include preferred-technologies.html -%}
+		{%- include technologies.html -%}
+	</div>
+	<div class="col-5-12">
+		{%- include projects.html -%}
+	</div>
+
+	</div>
+
+</div>

@@ -1,0 +1,6 @@
+<div class="content about">
+	{% for story in site.categories.stories %}
+	<h2>{{ story.title }}</h2>
+	{{ story.excerpt }}
+	{% endfor %}
+</div>

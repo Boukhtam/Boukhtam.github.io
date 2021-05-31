@@ -1,0 +1,9 @@
+---
+permalink: /projects
+layout: default
+---
+{%- for project in site.categories.projects -%}
+<h2><a href="{{project.url}}">{{ project.title }}</a></h2>
+
+{%- endfor -%}
+

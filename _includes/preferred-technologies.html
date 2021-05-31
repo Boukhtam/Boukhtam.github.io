@@ -1,0 +1,53 @@
+<div class="content techs">
+	<h2>Technologies that I love working with</h2>
+	{%- if site.data.techs.size -%}
+	<div class="paths-container">
+		{%- for tech in site.data.techs -%}
+		<div class="path-item-wrapper">
+			<div class="path-item-container">
+				<div class="path-item-icon">
+					{%- if tech.icon %}
+					{%- include {{tech.icon}}.svg -%}
+					{%- endif -%}
+				</div>
+				<div class="path-item-label">
+				</div>
+				<div class="path-item-title">
+					{{ tech.title }}
+				</div>
+
+				<div class="path-item-assessment-date">
+				{%- if tech.assessment.date -%}
+					<span class="path-item-date-label">
+						Assessment
+					</span>
+					<span class="path-item-date">
+						<time class="dt-published" datetime="{{ tech.assessment.date | date_to_xmlschema }}" itemprop="datePublished">
+							{%- assign date_format = site.minima.date_format | default: "%b %Y" -%}
+							{{ tech.assessment.date | date: date_format }}
+						</time>
+					</span>
+				{%- endif -%}
+				</div>
+
+				<div class="path-item-skill-iq">
+					{%- if tech.assessment -%}
+					<span class="{{tech.assessment.skill}}">
+						{{ tech.assessment.skillIQ }}
+					</span>
+					<span class="path-item-skill-points">
+						{{ tech.assessment.points }}
+					</span>
+					<div class="skill-iq">
+						<img src='{{site.baseurl}}/assets/images/skillIQ.png' />
+					</div>
+				{%- else- %}
+					<span>Not assessed yet</sapn>
+				{%- endif -%}
+				</div>
+			</div>
+		</div>
+		{%- endfor -%}
+	</div>
+	{%- endif -%}
+</div>

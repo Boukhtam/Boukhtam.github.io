@@ -1,0 +1,13 @@
+<header class="site-header" role="banner">
+
+  <div class="wrapper">
+    {%- assign default_paths = site.pages | map: "path" -%}
+    {%- assign page_paths = site.header_pages | default: default_paths -%}
+		<div class="col-3-12 left-shunt"><div class="content"></div></div>
+		<div class="col-4-12">
+			<div class="content"><h1><a class="site-title" rel="author" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a></h1></div>
+		</div>
+		<div class="">
+
+  </div>
+</header>
