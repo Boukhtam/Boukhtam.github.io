@@ -1,54 +1,53 @@
 [
 	{
-	"title": "JavaScript",
-	"assessment": {
-	"date": "2021-05-25 23:52:58 +0100",
-	"points": 215,
-	"skillIQ": "Expert",
-	"skill": "expert"
+		"title": "JavaScript",
+		"assessment": {
+			"points": 215,
+			"skillIQ": "Expert",
+			"skill": "expert"
+		},
+		"icon" : "javascript.svg"
 	},
-	"icon" : "javascript"
-},
-{ 
-	"title": "React",
-	"assessment": {
-	"points": 167,
-	"skillIQ": "Proficient",
-	"skill": "proficient"
+	{ 
+		"title": "React",
+		"assessment": {
+			"points": 167,
+			"skillIQ": "Proficient",
+			"skill": "proficient"
+		},
+		"icon": "react.svg"
 	},
-	"icon": "react"
-},
-{ 
-	"title": "React Native",
-	"assessment": {
-	"points": 167,
-	"skillIQ": "Proficient",
-	"skill": "proficient"
+	{ 
+		"title": "React Native",
+		"assessment": {
+			"points": 167,
+			"skillIQ": "Proficient",
+			"skill": "proficient"
+		},
+		"icon": "react.svg"
 	},
-	"icon": "react"
-},
-{ 
-	"title": "Node.js",
-	"icon": "nodejs-icon"
-},
-{ 
-	"title": "Express",
-	"icon": "express"
-},
-{ 
-	"title": "Redux",
-	"assessment": {
-	"points": 126,
-	"skillIQ": "Proficient",
-	"skill": "proficient"
+	{ 
+		"title": "Node.js",
+		"icon": "nodejs-icon.svg"
 	},
-	"icon": "redux"
-},
-{ 
-	"title": "Redux-Saga",
-	"icon": "redux"
-},
-{ 
-	"title": "Three.js"
-}
+	{ 
+		"title": "Express",
+		"icon": "express.svg"
+	},
+	{ 
+		"title": "Redux",
+		"assessment": {
+			"points": 126,
+			"skillIQ": "Proficient",
+			"skill": "proficient"
+		},
+		"icon": "redux.svg"
+	},
+	{ 
+		"title": "Redux-Saga",
+		"icon": "redux.svg"
+	},
+	{ 
+		"title": "Three.js"
+	}
 ]
