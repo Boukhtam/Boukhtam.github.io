@@ -28,6 +28,12 @@
 	},
 	{ 
 		"title": "Node.js",
+		"assessment": {
+			"points": 201,
+			"skillIQ": "Expert",
+			"skill": "expert"
+		},
+
 		"icon": "nodejs-icon.svg"
 	},
 	{ 
@@ -45,9 +51,69 @@
 	},
 	{ 
 		"title": "Redux-Saga",
+		"assessment": {
+			"points": 123,
+			"skillIQ": "Proficient",
+			"skill": "proficient"
+		},
+
 		"icon": "redux.svg"
 	},
 	{ 
 		"title": "Three.js"
+	},
+	{ 
+		"title": "GraphQL",
+		"assessment": {
+			"points": 115,
+			"skillIQ": "Proficient",
+			"skill": "proficient"
+		},
+		"icon": "graphql.svg"
+	},
+	{ 
+		"title": "Webpack",
+		"assessment": {
+			"points": 154,
+			"skillIQ": "Proficient",
+			"skill": "proficient"
+		},
+		"icon": "webpack.svg"
+	},
+	{ 
+		"title": "Git",
+		"assessment": {
+			"points": 163,
+			"skillIQ": "Proficient",
+			"skill": "proficient"
+		},
+		"icon": "git-icon.svg"
+	},
+	{ 
+		"title": "GitHub",
+		"assessment": {
+			"points": 176,
+			"skillIQ": "Proficient",
+			"skill": "proficient"
+		},
+		"icon": "github.svg"
+	},
+	{ 
+		"title": "Gitlab",
+		"assessment": {
+			"points": 112,
+			"skillIQ": "Proficient",
+			"skill": "proficient"
+		},
+		"icon": "gitlab.svg"
+	},
+	{ 
+		"title": "Electron",
+		"assessment": {
+			"points": 167,
+			"skillIQ": "Proficient",
+			"skill": "proficient"
+		},
+		"icon": "electron.svg"
 	}
 ]
