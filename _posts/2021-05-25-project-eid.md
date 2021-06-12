@@ -38,7 +38,8 @@ A [react-native module][repo] to read the contents of the Electronic-Identity-Do
   </p>
 </p>
 
-
+### This is basic react-native application built with react-native-eid-reader:
+<iframe style="display: block; margin: 0 auto;" width="361" height="640" src="https://www.youtube.com/embed/XVwR_dkYPpM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 <!-- TABLE OF CONTENTS -->
 ## Table of Contents
@@ -62,9 +63,6 @@ A [react-native module][repo] to read the contents of the Electronic-Identity-Do
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-
-[![Product Name Screen Shot][product-screenshot]]
-
 <!--The goal of this project is to allow react-native developers to implement .-->
 
 The module/tool currently reads the contents of:
